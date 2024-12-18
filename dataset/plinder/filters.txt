@@ -1,0 +1,5 @@
+system_num_ligand_chains <= 1
+system_num_protein_chains <= 1
+entry_resolution <= 3
+ligand_is_lipinski == True
+ligand_is_covalent == False

@@ -1,0 +1,267 @@
+2024-12-12 13:32:49,836 - __main__ - INFO - Plinder directory: /Users/bouceond/.local/share/plinder/2024-06/v2
+2024-12-12 13:36:44,198 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:37:42,249 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:37:50,760 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:37:53,598 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:37:53,599 - __main__ - INFO - Querying system list
+2024-12-12 13:38:47,600 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:38:47,600 - __main__ - INFO - Querying system list
+2024-12-12 13:38:59,175 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:38:59,175 - __main__ - INFO - Querying system list
+2024-12-12 13:39:48,679 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:39:48,679 - __main__ - INFO - Querying system list
+2024-12-12 13:41:10,922 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:41:10,922 - __main__ - INFO - Querying system list
+2024-12-12 13:41:18,603 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:41:18,603 - __main__ - INFO - Querying system list
+2024-12-12 13:41:18,603 - __main__ - INFO - Filters: 
+ ['system_num_ligand_chains', '<=', '1']
+	['system_num_protein_chains', '<=', '1']
+	['system_resolution', '<=', '3']
+	['ligand_is_lipinski', '==', 'True']
+	['ligand_is_covalent', '==', 'False']
+2024-12-12 13:50:09,916 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:50:09,917 - __main__ - INFO - Querying system list
+2024-12-12 13:50:09,917 - __main__ - INFO - Filters: 
+	['system_num_ligand_chains', '<=', '1']
+	['system_num_protein_chains', '<=', '1']
+	['system_resolution', '<=', '3']
+	['ligand_is_lipinski', '==', 'True']
+	['ligand_is_covalent', '==', 'False']
+2024-12-12 13:52:25,856 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:52:25,856 - __main__ - INFO - Querying system list
+2024-12-12 13:52:25,856 - __main__ - INFO - Filters: 
+	['system_num_ligand_chains', '<=', '1']
+	['system_num_protein_chains', '<=', '1']
+	['system_resolution', '<=', '3']
+	['ligand_is_lipinski', '==', 'True']
+	['ligand_is_covalent', '==', 'False']
+2024-12-12 13:52:52,091 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:52:52,091 - __main__ - INFO - Querying system list
+2024-12-12 13:52:52,091 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('system_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 13:53:23,706 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:53:23,706 - __main__ - INFO - Querying system list
+2024-12-12 13:53:23,706 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 13:53:25,386 - __main__ - INFO - Found 47496 systems
+2024-12-12 13:53:25,386 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 13:54:04,056 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:54:04,056 - __main__ - INFO - Querying system list
+2024-12-12 13:54:04,056 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 13:54:05,773 - __main__ - INFO - Found 47496 systems
+2024-12-12 13:54:05,773 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 13:54:24,554 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:54:24,554 - __main__ - INFO - Querying system list
+2024-12-12 13:54:24,554 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 13:54:26,309 - __main__ - INFO - Found 47496 systems
+2024-12-12 13:54:26,309 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 13:54:38,379 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:54:38,379 - __main__ - INFO - Querying system list
+2024-12-12 13:54:38,379 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 13:54:39,827 - __main__ - INFO - Found 47496 systems
+2024-12-12 13:54:39,828 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 13:55:27,077 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 13:55:27,077 - __main__ - INFO - Querying system list
+2024-12-12 13:55:27,077 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 13:55:28,711 - __main__ - INFO - Found 47496 systems
+2024-12-12 13:55:28,711 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:10:03,967 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:10:03,968 - __main__ - INFO - Querying system list
+2024-12-12 16:10:03,968 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:10:05,775 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:10:05,775 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:14:52,057 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:14:52,057 - __main__ - INFO - Querying system list
+2024-12-12 16:14:52,057 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:14:54,027 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:14:54,027 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:17:00,245 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:17:00,245 - __main__ - INFO - Querying system list
+2024-12-12 16:17:00,245 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:17:01,921 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:17:01,921 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:17:28,319 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:17:28,319 - __main__ - INFO - Querying system list
+2024-12-12 16:17:28,319 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:17:29,964 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:17:29,964 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:17:32,125 - __main__ - INFO - Download complete
+2024-12-12 16:17:44,685 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:17:44,685 - __main__ - INFO - Querying system list
+2024-12-12 16:17:44,685 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:17:46,304 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:17:46,304 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:17:48,445 - __main__ - INFO - Download complete
+2024-12-12 16:18:14,704 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:18:14,704 - __main__ - INFO - Querying system list
+2024-12-12 16:18:14,704 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:18:16,320 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:18:16,320 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:18:18,462 - __main__ - INFO - Download complete
+2024-12-12 16:20:09,710 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:20:09,710 - __main__ - INFO - Querying system list
+2024-12-12 16:20:09,710 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:20:11,360 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:20:11,361 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:20:14,119 - __main__ - INFO - Download complete
+2024-12-12 16:20:27,496 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:20:27,496 - __main__ - INFO - Querying system list
+2024-12-12 16:20:27,496 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:20:29,132 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:20:29,132 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:20:31,220 - __main__ - INFO - Download complete
+2024-12-12 16:20:56,518 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:20:56,518 - __main__ - INFO - Querying system list
+2024-12-12 16:20:56,519 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:20:58,193 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:20:58,194 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:21:00,468 - __main__ - INFO - Download complete
+2024-12-12 16:21:49,872 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:21:49,872 - __main__ - INFO - Querying system list
+2024-12-12 16:21:49,872 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:21:51,643 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:21:51,643 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:21:53,731 - __main__ - INFO - Download complete
+2024-12-12 16:22:35,274 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:22:35,274 - __main__ - INFO - Querying system list
+2024-12-12 16:22:35,274 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:22:36,880 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:22:36,881 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:22:38,937 - __main__ - INFO - Download complete
+2024-12-12 16:23:36,462 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:23:36,462 - __main__ - INFO - Querying system list
+2024-12-12 16:23:36,462 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:23:38,365 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:23:38,366 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:23:47,180 - __main__ - INFO - Download complete
+2024-12-12 16:24:39,234 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:24:39,234 - __main__ - INFO - Querying system list
+2024-12-12 16:24:39,234 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:24:40,906 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:24:40,906 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:26:47,938 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:26:47,938 - __main__ - INFO - Querying system list
+2024-12-12 16:26:47,938 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:26:49,629 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:26:49,630 - __main__ - INFO - Downloading 3 complexes
+2024-12-12 16:26:52,077 - __main__ - INFO - Download complete
+2024-12-12 16:31:45,822 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:31:45,822 - __main__ - INFO - Querying system list
+2024-12-12 16:31:45,822 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:31:47,837 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:31:47,837 - __main__ - INFO - Downloading 10 complexes
+2024-12-12 16:32:36,353 - __main__ - INFO - Plinder directory: /Users/bouceond/phd/landing_detector/data/plinder/2024-06/v2
+2024-12-12 16:32:36,353 - __main__ - INFO - Querying system list
+2024-12-12 16:32:36,353 - __main__ - INFO - Filters: 
+	('system_num_ligand_chains', '<=', '1')
+	('system_num_protein_chains', '<=', '1')
+	('entry_resolution', '<=', '3')
+	('ligand_is_lipinski', '==', 'True')
+	('ligand_is_covalent', '==', 'False')
+2024-12-12 16:32:37,931 - __main__ - INFO - Found 47496 systems
+2024-12-12 16:32:37,931 - __main__ - INFO - Downloading 10 complexes
+2024-12-12 16:32:44,893 - __main__ - INFO - Download complete
