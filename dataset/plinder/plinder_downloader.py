@@ -109,7 +109,12 @@ def main():
     for system_id in system_id_complexes:
 
         log.debug(f"Downloading {system_id}")
-        PlinderSystem(system_id=system_id).ligands
+        try:
+            plinder_system = PlinderSystem(system_id=system_id)
+            plinder_system.smiles
+        except AttributeError as e:
+            print(f'system {system_id} failed, error\n{e}')
+            continue
 
         if args.remove_other_every:
             clear_other_files(system_id_complexes, plinder_dir)
