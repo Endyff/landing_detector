@@ -14,22 +14,22 @@ LIGAND_KEYWORD='ligand'
 COMPLEX_KEYWORD='complex'
 
 def setup_parser():
-    parser = argparse.ArgumentParser(description='Buried ratio annotator')
-    parser.add_argument('--filter', type=str, default=None, help='Filtering list')
-    parser.add_argument('--system_id', type=str, default=None, help='System ID list')
-    parser.add_argument('--remove_others_once', action='store_true', help='Remove other files')
-    parser.add_argument('--index_file', type=str, default='index.csv', help='Path to index.csv')
-    parser.add_argument('--consider_vdW_surface', action='store_true', help='Consider van der Waals surface instead of solvent accessible surface')
-    parser.add_argument('--plinder_dir', type=str, default='/scratch/project/open-32-14/bouceond/landing_detector/data/plinder_test_set/plinder/2024-06/v2/systems', help='Plinder directory')
-    parser.add_argument('--result_csv', type=str, default='buried_ratio.csv', help='Path to the result CSV file')
-    parser.add_argument('--dot_density', type=int, default=2, help='Density of the dots around the atoms')
-    parser.add_argument('--dot_solvent', type=int, default=1, help='Boolean switch between using vdW radii computation of the surface (0) or the solvent accessible area (1)')
-    parser.add_argument('--log_file', type=str, default='buried_ratio_annotation.log', help='Path to the log file')
-    parser.add_argument('--log_level', type=str, default='INFO', help='Logging level')
+    parser = argparse.ArgumentParser(description='Buried ratio calculator')
 
+    # input output
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--data_dir', type=str, help='Directory containing system subdirectories')
     group.add_argument('--path_csv', type=str, help='CSV file containing paths to systems')
+    parser.add_argument('--result_csv', type=str, default='buried_ratio.csv', help='Path to the result CSV file')
+    
+    # log
+    parser.add_argument('--log_file', type=str, default='buried_ratio_annotation.log', help='Path to the log file')
+    parser.add_argument('--log_level', type=str, default='INFO', help='Logging level')
+
+    # pymol_settings
+    parser.add_argument('--dot_density', type=int, default=2, help='Density of the dots around the atoms')
+    parser.add_argument('--dot_solvent', type=int, default=1, help='Boolean switch between using vdW radii computation of the surface (0) or the solvent accessible area (1)')
+    
     return parser
 
 def setup_logging(log_filename, logging_level):
@@ -98,8 +98,8 @@ def process_complexes(args, log):
     log.info(f"Processing {len(paths_df)} systems")
     for _, row in paths_df.iterrows():
         system_id = row.system_id
-        protein_path = row.protein_path
-        ligand_path = row.ligand_path
+        protein_path = Path(row.protein_path)
+        ligand_path = Path(row.ligand_path)
         if system_id in processed_systems and not args.overwrite:
             log.debug(f"Skipping {system_id}")
             continue
