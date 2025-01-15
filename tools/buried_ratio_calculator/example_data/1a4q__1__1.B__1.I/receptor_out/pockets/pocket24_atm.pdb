@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1216
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2154
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6199
+HEADER 5  - Mean B-factor of pocket residues  : 0.0714
+HEADER 6  - Hydrophobicity Score              : 23.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.3769
+HEADER 10 - Pocket volume (convex hull)       : 0.6328
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   2970    O ASP A 381       8.937  49.583 -23.434  0.00  0.00           O 0
+ATOM   2962  CE2 TRP A 380       4.441  52.733 -22.260  0.00  0.00           C 0
+ATOM   2966  CH2 TRP A 380       4.634  53.004 -19.886  0.00  0.00           C 0
+ATOM   2964  CZ2 TRP A 380       4.385  53.587 -21.120  0.00  0.00           C 0
+ATOM   2974  OD2 ASP A 381      10.300  52.258 -25.894  0.81  3.21           O 0
+ATOM   2965  CZ3 TRP A 380       4.932  51.626 -19.752  0.00  0.00           C 0
+ATOM   2988  CG2 VAL A 383      12.961  52.850 -20.599  0.00  0.00           C 0
+ATOM   2987  CG1 VAL A 383      13.240  53.372 -23.014  0.00  0.00           C 0
+ATOM   2963  CE3 TRP A 380       4.992  50.787 -20.881  0.00  0.00           C 0
+ATOM   2960  CD2 TRP A 380       4.741  51.344 -22.171  0.00  0.00           C 0
+ATOM   2973  OD1 ASP A 381       8.163  52.103 -26.102  0.67  7.50           O 0
+ATOM   2961  NE1 TRP A 380       4.237  53.004 -23.591  0.75  4.37           N 0
+ATOM    151   NZ LYS A  18       8.927  48.739 -20.608  0.39  9.84           N 0
+TER
+END

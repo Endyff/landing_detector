@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0745
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0000
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6822
+HEADER 5  - Mean B-factor of pocket residues  : 0.0985
+HEADER 6  - Hydrophobicity Score              : 41.7500
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 229.9824
+HEADER 10 - Pocket volume (convex hull)       : 4.0872
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    634  NE2 HIS A  79      10.246  45.007 -15.415  0.75  6.56           N 0
+ATOM    758   CB PHE A  96      11.890  41.879 -11.023  0.00  0.00           C 0
+ATOM    632  CD2 HIS A  79       9.839  44.617 -14.145  0.00  0.00           C 0
+ATOM    757    O PHE A  96      10.390  39.355 -11.635  0.68  6.43           O 0
+ATOM    472   OH TYR A  59      15.293  44.929 -13.644  0.00  0.00           O 0
+ATOM    783    N ALA A  99       6.785  43.887 -15.587  0.75  2.19           N 0
+ATOM   1054  CE1 TYR A 134       5.260  38.035 -17.127  0.00  0.00           C 0
+ATOM    779   CB MET A  98       5.436  41.287 -14.868  0.00  0.00           C 0
+ATOM    998   NZ LYS A 127       3.957  43.882 -18.497  0.00  0.00           N 0
+ATOM   1057   OH TYR A 134       7.541  38.034 -16.347  0.61  4.29           O 0
+ATOM   1056   CZ TYR A 134       6.560  37.522 -17.182  0.00  0.00           C 0
+ATOM    768    O HIS A  97       7.382  39.082 -13.724  0.56  2.14           O 0
+ATOM    775    N MET A  98       7.200  41.265 -13.107  0.00  0.00           N 0
+ATOM    767    C HIS A  97       7.420  39.973 -12.873  0.00  0.00           C 0
+ATOM    776   CA MET A  98       6.815  41.789 -14.423  0.00  0.00           C 0
+TER
+END

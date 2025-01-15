@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0744
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7469
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6274
+HEADER 5  - Mean B-factor of pocket residues  : 0.0800
+HEADER 6  - Hydrophobicity Score              : 51.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 186.8869
+HEADER 10 - Pocket volume (convex hull)       : 5.0831
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   2948    O LEU A 379       2.757  49.793 -26.530  0.00  0.00           O 0
+ATOM   2519    O VAL A 323       8.201  47.782 -29.377  0.50  3.21           O 0
+ATOM   2953    N TRP A 380       4.066  48.143 -25.921  0.80  2.19           N 0
+ATOM   2947    C LEU A 379       2.929  48.588 -26.433  0.00  0.00           C 0
+ATOM   2954   CA TRP A 380       5.058  49.082 -25.415  0.00  0.00           C 0
+ATOM   2516    N VAL A 323       7.335  47.179 -32.121  0.45  2.19           N 0
+ATOM   2944  CD2 LEU A 378       5.275  45.812 -28.897  0.00  0.00           C 0
+ATOM   2940    O LEU A 378       1.943  46.948 -29.611  0.50  7.50           O 0
+ATOM   2520   CB VAL A 323       8.652  49.241 -31.892  0.00  0.00           C 0
+ATOM   2973  OD1 ASP A 381       8.163  52.103 -26.102  0.67  7.50           O 0
+ATOM   2972   CG ASP A 381       9.293  51.642 -26.227  0.00  0.00           C 0
+ATOM   2974  OD2 ASP A 381      10.300  52.258 -25.894  0.81  3.21           O 0
+ATOM   2542   CB SER A 326      12.655  53.240 -29.426  0.00  0.00           C 0
+ATOM   2521  CG1 VAL A 323       9.987  49.816 -31.377  0.00  0.00           C 0
+ATOM   2971   CB ASP A 381       9.449  50.251 -26.761  0.00  0.00           C 0
+ATOM   2967    N ASP A 381       7.372  49.471 -25.648  0.00  0.00           N 0
+TER
+END
