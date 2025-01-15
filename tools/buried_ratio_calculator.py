@@ -8,10 +8,27 @@ import numpy as np
 import os
 import logging
 
-
 POCKET_KEYWORD='pocket'
 LIGAND_KEYWORD='ligand'
 COMPLEX_KEYWORD='complex'
+
+# SET UP CUSTOM LIGAND_PROTEIN PATH WHEN USING --data_dir
+# SET UP FOR PLINDER DATASET
+def protein_path(system_path):
+    return system_path / 'receptor.pdb'
+
+def ligand_path(system_path):
+    return list((system_path / 'ligand_files').iterdir())[0]
+
+def get_paths(system_path):
+    systems, protein_paths, ligand_paths = [],[],[]
+    for path in Path(system_path).iterdir():
+        systems.append(path.name)
+        protein_paths.append(protein_path(path))
+        ligand_paths.append(ligand_path(path))
+    return pd.DataFrame({'system_id': systems, 'protein_path': protein_paths, 'ligand_path': ligand_paths})
+
+
 
 def setup_parser():
     parser = argparse.ArgumentParser(description='Buried ratio calculator')
@@ -36,9 +53,6 @@ def setup_logging(log_filename, logging_level):
     logging.basicConfig(level=logging_level, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filename=log_filename)
     return logging.getLogger(__name__)
 
-
-
-RESULT_CSV = 'plinder_test_set_buried_ratios.csv'
 
 def get_buried_ratio(protein_path, ligand_path, dot_solvent, dot_density):
     # method by Petr Kouba 
@@ -70,19 +84,6 @@ def get_buried_ratio(protein_path, ligand_path, dot_solvent, dot_density):
         log.error(f"In case of {protein_path} {ligand_path} the protein area is 0 !")
     return buried_ratio, control_ratio
 
-def protein_path(system_path):
-    return system_path / 'receptor.pdb'
-
-def ligand_path(system_path):
-    return list((system_path / 'ligand_files').iterdir())[0]
-
-def get_paths(system_path):
-    systems, protein_paths, ligand_paths = [],[],[]
-    for path in Path(system_path).iterdir():
-        systems.append(path.name)
-        protein_paths.append(protein_path(path))
-        ligand_paths.append(ligand_path(path))
-    return pd.DataFrame({'system_id': systems, 'protein_path': protein_paths, 'ligand_path': ligand_paths})
 
 def process_complexes(args, log):
 
